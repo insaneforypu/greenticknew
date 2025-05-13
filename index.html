@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greentick | WhatsApp Marketing Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="seedling_1f331.png" type="image/x-icon">
+  <style>
+    :root {
+      --primary: #00b96b;
+      --background: #f9f9f9;
+      --light: #e8fff4;
+      --dark: #1d1d1d;
+      --radius: 1rem;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 1.5rem 2rem;
+      color: white;
+      text-align: center;
+    }
+
+    header h2 {
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--light);
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      color: #444;
+      max-width: 600px;
+      margin-inline: auto;
+    }
+
+    .hero a {
+      padding: 0.75rem 1.5rem;
+      background-color: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #009c5c;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .feature-box {
+      background-color: white;
+      padding: 2rem;
+      border-radius: var(--radius);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .testimonial {
+      background: white;
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    .testimonial p {
+      font-style: italic;
+      color: #333;
+    }
+
+    .testimonial h4 {
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+
+    .contact-section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-section p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+
+    .whatsapp-chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      z-index: 9999;
+      transition: background 0.3s;
+    }
+
+    .whatsapp-chat:hover {
+      background-color: #1ebc5a;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      header h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>🌱 Greentick</h2>
+    <p>Your Partner in WhatsApp Marketing</p>
+  </header>
+
+  <div class="hero">
+    <h1>Boost Customer Retention with WhatsApp</h1>
+    <p>Engage, re-engage, and grow your business with personalized WhatsApp campaigns.</p>
+    <a href="#">Get Started</a>
+  </div>
+
+  <section class="section">
+    <h2>Why Choose Greentick?</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Automated Reminders</h3>
+        <p>Send timely follow-ups and reminders to keep customers coming back.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Customer Retention</h3>
+        <p>Boost repeat visits with smart messaging and offers.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Data Collection</h3>
+        <p>Use QR codes to capture customer details and build a loyal database.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"Greentick has transformed how we connect with our customers. Highly recommend!"</p>
+        <h4>- Rahul, Café Owner</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The automated reminders helped us increase repeat visits by 30%!"</p>
+        <h4>- Priya, Salon Manager</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The team at Greentick is super helpful and professional. Great service!"</p>
+        <h4>- Aman, Boutique Owner</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>📞 Chat with us directly on <a href="https://wa.me/8302845150" target="_blank">WhatsApp</a></p>
+    <p>📧 Or email us at <a href="mailto:hellogreentick@gmail.com">hellogreentick@gmail.com</a></p>
+  </section>
+
+  <a class="whatsapp-chat" href="https://wa.me/8302845150" target="_blank" title="Chat with us on WhatsApp">💬</a>
+
+  <footer>
+    <p>&copy; 2025 Greentick. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
